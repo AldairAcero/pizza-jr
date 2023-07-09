@@ -1,0 +1,37 @@
+.login-form {
+  margin: auto;
+  margin-top: 100px;
+  width: 25%;
+  padding: 10px;
+}
+
+.btn-login {
+  background-color: #bb3b0e;
+  border-color: #bb3b0e;
+  color: white;
+}
+.btn-login[disabled] {
+  color: white;
+  background-color: #c94211dc;
+  border-color: #bb3c0ee7;
+}
+
+.btn-login:hover {
+  background-color: #bb3c0eda;
+  border-color: #bb3b0e;
+  color: white;
+}
+
+.text-small {
+  color: gray;
+  font-size: 10px;
+}
+
+@media screen and (width < 500px) {
+  .login-form {
+    margin: auto;
+    margin-top: 150px;
+    width: 75%;
+    padding: 10px;
+  }
+}

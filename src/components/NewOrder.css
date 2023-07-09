@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+}
+
+.btn-orange {
+  background-color: #dd7631;
+}
+
+.btn-orange:hover {
+  background-color: #ec7f35;
+  color: #dd7631;
+}
+
+.btn-add {
+  background-color: #0a8d20;
+  border-radius: 50%;
+  color: white;
+}
+
+.btn-add:hover {
+  background-color: #0fc72d;
+  color: white;
+}

@@ -1,0 +1,27 @@
+.table-title {
+  background-color: #dd7631;
+  margin: 0;
+  padding: 5px;
+  color: white;
+  width: 12%;
+  text-align: center;
+}
+
+.header {
+  background-color: #dd7631;
+  color: white;
+}
+.filas {
+  background-color: #dd8449;
+  color: white;
+}
+
+td,
+th {
+  border: 0;
+}
+
+tr:hover {
+  background-color: #e07934;
+  color: white;
+}
